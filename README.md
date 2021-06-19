@@ -16,8 +16,8 @@ google-auth-httplib2==0.1.0
 google-auth-oauthlib==0.4.4
 ```
 
-Fill in the credentials files ([twitch.json](https://github.com/Gusstavo/Twitch-Clips-Uploader-On-Youtube/tree/master/credentials/twitch.json), [youtube.json](https://github.com/Gusstavo/Twitch-Clips-Uploader-On-Youtube/tree/master/credentials/youtube.json)) to be able to run, this way:
-+ [twitch.json](https://github.com/Gusstavo/Twitch-Clips-Uploader-On-Youtube/tree/master/credentials/twitch.json):
+Fill in the credentials files (twitch.json, youtube.json) on credentials folder to be able to run, this way:
++ twitch.json:
 ```json
 {
     "CLIENT_ID": "YOUT CLIENT ID HERE",
@@ -25,7 +25,8 @@ Fill in the credentials files ([twitch.json](https://github.com/Gusstavo/Twitch-
     "GRANT_TYPE": "client_credentials"
 }
 ````
-+  [youtube.json](https://github.com/Gusstavo/Twitch-Clips-Uploader-On-Youtube/tree/master/credentials/youtube.json):
+
++ youtube.json:
 ```json
 {
     "installed":{
